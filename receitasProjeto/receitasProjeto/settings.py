@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'receitas',
+    'pessoas',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'receitasProjeto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'receitasProjeto',
+        'NAME': 'receitas',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost'
